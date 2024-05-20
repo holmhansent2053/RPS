@@ -1,6 +1,6 @@
 # Check that users have entered a valid
 # option based on a list
-def string_checker(question, valid_ans=['yes', 'no']):
+def string_checker(question, valid_ans=('yes', 'no')):
     while True:
 
         # Get user response and make sure it's lowercase
